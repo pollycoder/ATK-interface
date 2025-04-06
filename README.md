@@ -19,5 +19,5 @@ atkClose(conID)                                # Disconnect from ATK
 
 |行号| 数据 |
 |--|--|
-| 1 | $a_0$  $e_0$  $i_0$  $\Omega_0$  $\omega_0$  $f_0$|
-| 2 | $t_{\Delta V}$  $\Delta V_x$  $\Delta V_y$  $\Delta V_z$|
+| 1 | $a_0$ ~ $e_0$ ~ $i_0$ ~ $\Omega_0$ ~ $\omega_0$ ~ $f_0$|
+| 2 | $t_{\Delta V}$~  $\Delta V_x$ ~ $\Delta V_y$ ~ $\Delta V_z$|
