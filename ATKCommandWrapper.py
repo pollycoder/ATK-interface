@@ -37,7 +37,14 @@ def create_sensor(conID: int, sat_path: str, id_str: str):
     add_new_sensor = "/" + space + sat_path + "/Sensor" + space + sensor_name
     atkConnect(conID, "New", add_new_sensor)
     atkConnect(conID, "Define", sensor_path + space + "Rectangular 20 20")
+    return sensor_path
 
+def set_sensor_parameter(conID: int, sensor_path: str):
+    projection_command = sensor_path + space + "Projection" + space + " Altitudes 500000 "
+    point_command = sensor_path + space + "Fixed" + space + "Quaternion 0 1 0 0"
+
+    atkConnect(conID, "Graphics", projection_command)
+    atkConnect(conID, "Point", point_command)
 
 def add_initialstate(conID: int, initial_coe: list, sat_path: str):
     set_prop_command = sat_path + space + "SetProp"

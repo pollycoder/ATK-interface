@@ -86,6 +86,7 @@ def write_single_sat(conID: int, sat: dict, sat_id: int):
 
     sat_path = create_sateliite(conID, id_str)
     sensor_path = create_sensor(conID, sat_path, id_str)
+    set_sensor_parameter(conID, sensor_path)
     print(id_str, sat_path)
 
     add_initialstate(conID, initial_coe, sat_path)
