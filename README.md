@@ -19,6 +19,6 @@ atkClose(conID)                                # Disconnect from ATK
 
 |$a_0$ | $e_0$  | $i_0$ | $\Omega_0$ | $\omega_0$ | $f_0$|
 | -- | --| --| --|--|--|
-|$t_{\Delta V_1}$ | $\Delta V_{x1}$ | $\Delta V_{y1}$ | $\Delta V_{z1}$|
-|$t_{\Delta V_2}$ | $\Delta V_{x2}$ | $\Delta V_{y2}$  | $\Delta V_{z2}$|
+|$t_1$ | $\Delta V_{x1}$ | $\Delta V_{y1}$ | $\Delta V_{z1}$|
+|$t_2$ | $\Delta V_{x2}$ | $\Delta V_{y2}$  | $\Delta V_{z2}$|
 
